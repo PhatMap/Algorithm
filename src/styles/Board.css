@@ -15,6 +15,16 @@
   align-items: center;
 }
 
+.control {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.control-input{
+  margin-right: 15px;
+}
+
 .board-container {
   display: flex;
   flex-wrap: wrap;
