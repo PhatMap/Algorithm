@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.board-item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.set {
+  background-color: aqua;
+}
+
+.unset {
+  background-color: red;
+}
